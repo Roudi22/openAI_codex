@@ -79,7 +79,7 @@ const handleSubmit = async (e)=> {
 
   // fetch data from the server
 
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://roudiai.onrender.com", {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
